@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_body {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(75, 14, 154, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_container
+{
+    width: 500px;
+    height: 450px;
+    border-radius: 10px;
+    background: white;
+}
+
+.btn-color{
+    width: 100%;
+    border: none;
+    border-radius:5px;
+    color: white;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%); 
+}
+
+.Link
+{
+    color: white;
+    text-decoration: none;
+}
+
+.user
+{
+    background: rgb(71, 2, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+::-webkit-scrollbar
+{
+    display: none;
+}
